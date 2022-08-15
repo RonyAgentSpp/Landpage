@@ -1,0 +1,126 @@
+@import url('https://fonts.google.com/specimen/Edu+QLD+Beginner?preview.size=36');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+
+}
+
+h2 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+h3:hover  {
+  color: rgb(253, 254, 255);
+  text-align: center;
+
+}
+
+ul {
+  list-style: nome;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 16px;
+}
+
+li {
+  margin: 0 15px;
+}
+
+nav p {
+  font-weight: bold;
+}
+
+header {
+  height: calc(120vh - 120px);
+  background: no-repeat center 100%/cover url('./img2.jpg')
+}
+
+header-content {
+  max-width: 400px;
+  margin: 150px auto;
+}
+
+.header-content h1 {
+  margin-bottom: 40px;
+ 
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 255, 255)
+}
+
+.center {
+    text-align: center;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+footer a {
+  margin: 20px;
+}
+
+.container {
+  padding: 0px 50px;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+section:hover {
+  color:#f2fe03;
+
+}
+
+h1:hover {
+  color:aqua
+}
+
+h2:hover {
+  color:rgb(255, 0, 0)
+
+}
+
+h3:hover {
+  color:#ff0000
+}
+
+head:hover {
+  color:aqua;
+}
+
+
